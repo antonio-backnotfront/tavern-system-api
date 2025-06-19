@@ -79,7 +79,7 @@ public class TavernService : ITavernService
     {
         // validate personDataId
         string personDataIdRegex =
-            "^[A-Z]{2}(000[1-9]{1}|00[1-9]{1}[0-9]{1}|0[1-9]{1}[0-9]{2}|[1-9]{1}[0-9]{3})(0[1-9]{1}|1[0-1]{1})(0[1-9]{1}|1[0-9]{1}|2[0-8]{1})[0-9]{4}[A-Z]{2}$";
+            "^[A-Z]{2}(000[1-9]{1}|00[1-9]{1}[0-9]{1}|0[1-9]{1}[0-9]{2}|[1-9]{1}[0-9]{3})(0[1-9]{1}|1[0-2]{1})(0[1-9]{1}|1[0-9]{1}|2[0-8]{1})[0-9]{4}[A-Z]{2}$";
         if (!Regex.IsMatch(dto.PersonDataId, personDataIdRegex))
             throw new InvalidPersonDataException("Person data ID is not valid.");
 
