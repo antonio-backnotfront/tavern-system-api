@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>TavernSystem_Training_1.API</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,8 +12,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TavernSystem_Training_1.Application\TavernSystem_Training_1.Application.csproj" />
-      <ProjectReference Include="..\TavernSystem_Training_1.Models\TavernSystem_Training_1.Models.csproj" />
+      <ProjectReference Include="..\TavernSystem.Application\TavernSystem.Application.csproj" />
+      <ProjectReference Include="..\TavernSystem.Models\TavernSystem.Models.csproj" />
     </ItemGroup>
 
 </Project>

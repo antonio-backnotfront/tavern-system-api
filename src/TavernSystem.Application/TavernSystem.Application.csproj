@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>TavernSystem_Training_1.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TavernSystem.Models\TavernSystem.Models.csproj" />
+      <ProjectReference Include="..\TavernSystem.Repositories\TavernSystem.Repositories.csproj" />
+    </ItemGroup>
+
+</Project>
