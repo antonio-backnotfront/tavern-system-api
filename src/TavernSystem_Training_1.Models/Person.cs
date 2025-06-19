@@ -1,12 +1,12 @@
 namespace TavernSystem_Training_1.Models;
 
 
-public class Adventurer
+public class Person
 {
-    public int Id { get; set; }
-    public string Nickname { get; set; }
-    public int RaceId { get; set; }
-    public int ExperienceId { get; set; }
-    public int PersonId { get; set; }
+    public string Id { get; set; }
+    public string FirstName { get; set; }
+    public string? MiddleName { get; set; }
+    public string LastName { get; set; }
+    public bool HasBounty { get; set; }
     
 }

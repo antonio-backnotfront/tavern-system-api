@@ -1,8 +1,8 @@
 namespace TavernSystem_Training_1.Application.Exceptions;
 
-public class HasBountyException : Exception
+public class NotExistsException : Exception
 {
-    public HasBountyException(string msg) : base(msg)
+    public NotExistsException(string msg) : base(msg)
     {
     }
 }

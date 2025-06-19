@@ -1,8 +1,8 @@
 namespace TavernSystem_Training_1.Application.Exceptions;
 
-public class AlreadyExistsException : Exception
+public class InvalidPersonDataException : Exception
 {
-    public AlreadyExistsException(string msg) : base(msg)
+    public InvalidPersonDataException(string msg) : base(msg)
     {
     }
 }
